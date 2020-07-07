@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 # JSON
 *.json
 
 # VScode
 ./vscode/*
+=======
+# VScode
+./PAT-Advanced/.vscode/*
+./PAT-Basic/.vscode/*
+>>>>>>> 42ad895ae844b5f378b7c910eb1a9b6b40f749ba
 
 # Prerequisites
 *.d
