@@ -1,5 +1,6 @@
 # VScode
-.vscode/*
+./PAT-Advanced/.vscode/*
+./PAT-Basic/.vscode/*
 
 # Prerequisites
 *.d
