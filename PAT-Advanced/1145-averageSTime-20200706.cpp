@@ -9,8 +9,11 @@ bool isPrime(int n){
     if(n % 2 == 0) ret = false;
     else {
         for(int i = 3; i < pow(n, 0.5)+1; i+=2){
-            if(n % i == 0) ret= false;
-            break;
+            if(n % i == 0){
+                ret = false;
+                break;
+            }
+                
         }
     }
     return ret;
