@@ -1,14 +1,15 @@
-#include <string>
-#include <algorithm>
-#include <iostream>
+# include <string>
+# include <iostream>
 
 using namespace std;
 
-int main()
-{
-    string str = "hello world";
-    string str_rev = str;
-    reverse(str.begin(), str.end());
-
-    cout << str << " " << str_rev << endl;
+int main(){
+    string m;
+    for(int i=0;i<3;i++){
+        getline(cin, m);
+        cout << m << endl;
+        cout << m.size() << endl;
+        }
+    cout << m.find("a", 1);
+    return 0;
 }
